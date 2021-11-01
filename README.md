@@ -8,8 +8,9 @@
 >+ 시작 => "명령 프롬프트" 검색 => 우클릭 후 관리자 권한 실행 => DISKPART 입력
 
 >#### Command(basic)
->+ list : 디스크, 파티션, 볼륨, 가상디스크의 목록을 출력합니다.
->- list disk : 디스크의 목록을 표시합니다
->- list partition : 선택한 디스크의 파티션을 표시합니다.
->- list volume : 볼륨 목록을 표시 합니다.
->- list vdisk : 가상 디스크 목록을 표시합니다.
+>* list : 디스크, 파티션, 볼륨, 가상디스크의 목록을 출력합니다.
+>   * list disk : 디스크의 목록을 표시합니다
+>   * list partition : 선택한 디스크의 파티션을 표시합니다.
+>      * **list partition 사용시 디스크를 선택해주어야 합니다.**
+>   * list volume : 볼륨 목록을 표시 합니다.
+>   * list vdisk : 가상 디스크 목록을 표시합니다.
